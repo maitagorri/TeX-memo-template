@@ -1,0 +1,52 @@
+\documentclass[letterpaper,10pt]{texMemo}
+
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{enumerate}
+\usepackage{outlines}
+\usepackage{color, soul}
+%\usepackage[text={7in,10in}]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{biblatex}
+
+\bibliography{bibliography} 
+\bibliographystyle{Apalike}
+
+
+\memoto{Addressee}
+\memofrom{Maita Schade, Survey Data Scientist, LAPOP Lab}
+\memosubject{Memo Subject}
+\memodate{\today}
+\memologo{\includegraphics[height=8\baselineskip]{"lapop-full-color.png"}}
+
+\setlength{\parindent}{0pt}
+\setcounter{secnumdepth}{0}
+
+\begin{document}
+\maketitle
+\section{Introduction}
+
+\section{Highlights}
+\subsection{A subsection} 
+\begin{description}
+	\item[1] First important point from \cite{meade2012identifying}
+	\item[2] Second important point
+	\item[3] Third important point 
+\end{description}
+	
+\section{Some Explanations}
+	\paragraph{A topic} Lorem ipsum	
+	
+\section{Takeaways \& Next Steps}
+We summarize our findings and recommend:
+			\begin{itemize}
+				\item \textbf{important} things.
+				\item Other things are also \textbf{important}.
+				\item three is the least \textbf{important} item.
+\end{itemize}
+
+
+\printbibliography
+
+\end{document}
